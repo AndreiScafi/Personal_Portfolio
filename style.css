@@ -234,7 +234,7 @@ html {
 
 .projects-wrapper {
     flex-wrap: wrap;
-    max-width: 160rem;
+    max-width: 80%;
 }
 
 .project {
@@ -264,7 +264,7 @@ html {
 }
 
 .project:hover .project-text {
-    top: 7.5rem;
+    top: 5rem;
     transition: top .3s .3s;
 }
 
@@ -282,7 +282,7 @@ html {
 }
 
 .project-img {
-    width: 50rem;
+    width: 40rem;
     transition: opacity 0.3s;
 }
 
@@ -304,7 +304,7 @@ html {
 }
 
 .project:hover .project-link {
-    bottom: 7.5rem;
+    bottom: 5rem;
     transition: bottom .3s .3s;
 }
 
