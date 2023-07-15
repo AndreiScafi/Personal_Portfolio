@@ -13,8 +13,12 @@ const progressBarPercents = [97, 89, 85, 87, 80, 70, 50];
 
 
 
-
 window.addEventListener('scroll', () => {
+    mainFn();
+})
+
+//Preventing bugs
+const mainFn = () => {
 
     //Navbar Sticky Effect:
     if (window.pageYOffset >= navbarOffsetTop) {
@@ -43,5 +47,12 @@ window.addEventListener('scroll', () => {
             el.previousElementSibling.firstElementChild.textContent = progressBarPercents[i];
         })
     }
-});
+
+}
+
+mainFn();
+
+window.addEventListener('resize', () => {
+    window.location.reload();
+})
 
